@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Carbon">
+
+
+        <attr name="carbon_rippleColor" format="reference|color" />
+        <attr name="carbon_rippleColorInverse" format="reference|color" />
+
+        <attr name="carbon_rippleHotspot" format="boolean" />
+        <attr name="carbon_rippleStyle" format="enum">
+            <enum name="over" value="0" />
+            <enum name="background" value="1" />
+            <enum name="borderless" value="2" />
+        </attr>
+        <attr name="carbon_rippleRadius" format="dimension" />
+    </declare-styleable>
+
+
+
+</resources>
